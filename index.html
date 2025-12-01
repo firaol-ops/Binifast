@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bini Fast Food - Delicious & Quick</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-hamburger"></i>
+                <h1>Bini Fast Food</h1>
+            </div>
+            
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h2>Fast, Fresh & Finger-Lickin' Good!</h2>
+            <p>At Bini Fast Food, we serve delicious meals prepared with the freshest ingredients. From juicy burgers to crispy fries, we've got everything to satisfy your cravings!</p>
+            <a href="#menu" class="cta-button">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Delicious Menu</h2>
+            </div>
+            
+            <div class="menu-container">
+                <!-- Menu Item 1 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=699&q=80" alt="Bini Burger" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Bini Burger</h3>
+                        <p>Juicy beef patty with fresh lettuce, tomato, cheese, and special sauce</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 249</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 2 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" alt="Crispy Chicken" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Crispy Chicken</h3>
+                        <p>Crispy fried chicken served with coleslaw and fries</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 299</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 3 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80" alt="Loaded Fries" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Loaded Fries</h3>
+                        <p>Golden fries topped with cheese, bacon, and green onions</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 189</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 4 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80" alt="Pepperoni Pizza" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Pepperoni Pizza</h3>
+                        <p>Classic pizza with pepperoni and mozzarella cheese</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 399</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 5 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1562967915-92ae78e332e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80" alt="Chicken Nuggets" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Chicken Nuggets</h3>
+                        <p>Crispy chicken nuggets served with your choice of dipping sauce</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 179</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 6 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Vegetable Salad" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Vegetable Salad</h3>
+                        <p>Fresh garden salad with a variety of vegetables and dressing</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 199</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 7 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Soft Drink" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Soft Drink</h3>
+                        <p>Refreshing soft drink in various flavors</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 75</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Item 8 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Ice Cream Sundae" class="menu-item-img">
+                    <div class="menu-item-content">
+                        <h3>Ice Cream Sundae</h3>
+                        <p>Vanilla ice cream with chocolate syrup and sprinkles</p>
+                        <div class="menu-item-footer">
+                            <div class="price">ብር 149</div>
+                            <a href="#order-form" class="add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="offers" id="offers">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: white;">Special Offers</h2>
+            </div>
+            
+            <div class="offer-slider">
+                <div class="offer-slide active-slide">
+                    <h3>Buy 1 Get 1 Free</h3>
+                    <p>Get any burger with a free soft drink. Limited time offer!</p>
+                    <a href="#order-form" class="cta-button">Claim Offer</a>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <div class="slider-dot active"></div>
+                <div class="slider-dot"></div>
+                <div class="slider-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="order-form" id="order-form">
+        <div class="container">
+            <div class="section-title">
+                <h2>Place Your Order</h2>
+            </div>
+            
+            <div class="form-container">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Delivery Address</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="order">Your Order</label>
+                        <textarea id="order" name="order" rows="4" placeholder="Please list the items you want to order..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="instructions">Special Instructions</label>
+                        <textarea id="instructions" name="instructions" rows="3" placeholder="Any special requests or dietary restrictions?"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Delivery Time</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="delivery-time" value="asap" checked> ASAP (30-45 mins)</label>
+                            <label><input type="radio" name="delivery-time" value="later"> Schedule for later</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="cta-button submit-order">Place Order</button>
+                </form>
+                
+                <div class="order-summary">
+                    <h3>How to Order</h3>
+                    <ol>
+                        <li>Browse our menu above</li>
+                        <li>Note down what you'd like to order</li>
+                        <li>Fill out this order form with your details</li>
+                        <li>Include the items you want in the "Your Order" section</li>
+                        <li>Submit the form and we'll call you to confirm</li>
+                    </ol>
+                    
+                    <div class="contact-info">
+                        <h3>Or Call Us Directly</h3>
+                        <p><i class="fas fa-phone"></i> 0938 49 47 51</p>
+                        <p><i class="fas fa-clock"></i> Open 24/7 for delivery</p>
+                        <p><i class="fas fa-truck"></i> Free delivery on orders over ብር 500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Bini Fast Food</h3>
+                    <p>We are committed to serving you the most delicious fast food made with high-quality ingredients and served with a smile.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#offers">Special Offers</a></li>
+                        <li><a href="#order-form">Order Now</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-user"></i> Biniam Gebremdhin</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Mekelle, Arid Campus Area</li>
+                        <li><i class="fas fa-phone"></i> 0938 49 47 51</li>
+                        <li><i class="fas fa-envelope"></i> emperorjunior4th@gmail.com</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to get exclusive offers and updates.</p>
+                    <form>
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="cta-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Bini Fast Food. All rights reserved.</p>
+                <p>Mekelle, Ethiopia | Call: 0938 49 47 51</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
